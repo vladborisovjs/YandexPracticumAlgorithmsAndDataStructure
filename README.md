@@ -15,3 +15,8 @@
 <li><a href="https://github.com/vladborisovjs/YandexPracticumAlgorithmsAndDataStructure/blob/master/Sprint1/taskK.js">K. Списочная форма</a></li>
 <li><a href="https://github.com/vladborisovjs/YandexPracticumAlgorithmsAndDataStructure/blob/master/Sprint1/taskL.js">L. Лишняя буква</a></li>
 </ul>
+
+<ul>
+<li><a href="https://github.com/vladborisovjs/YandexPracticumAlgorithmsAndDataStructure/blob/master/Sprint1/finalA.js">A. Ближайший ноль</a></li>
+<li><a href="https://github.com/vladborisovjs/YandexPracticumAlgorithmsAndDataStructure/blob/master/Sprint1/finalB.js">B. Ловкость рук</a></li>
+</ul>
