@@ -4,7 +4,7 @@
 <ul>
 <li><a href="https://github.com/vladborisovjs/YandexPracticumAlgorithmsAndDataStructure/blob/master/Sprint1/taskA.js">A. Значения функции</a></li>
 <li><a href="https://github.com/vladborisovjs/YandexPracticumAlgorithmsAndDataStructure/blob/master/Sprint1/taskB.js">B. Чётные и нечётные числа</a></li>
-<li><a href="https://github.com/vladborisovjs/YandexPracticumAlgorithmsAndDataStructure/blob/master/Sprint1/taskCjs">C. Соседи</a></li>
+<li><a href="https://github.com/vladborisovjs/YandexPracticumAlgorithmsAndDataStructure/blob/master/Sprint1/taskC.js">C. Соседи</a></li>
 <li><a href="https://github.com/vladborisovjs/YandexPracticumAlgorithmsAndDataStructure/blob/master/Sprint1/taskD.js">D. Хаотичность погоды</a></li>
 <li><a href="https://github.com/vladborisovjs/YandexPracticumAlgorithmsAndDataStructure/blob/master/Sprint1/taskE.js">E. Самое длинное слово </a></li>
 <li><a href="https://github.com/vladborisovjs/YandexPracticumAlgorithmsAndDataStructure/blob/master/Sprint1/taskF.js">F. Палиндром</a></li>
