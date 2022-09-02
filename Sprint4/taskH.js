@@ -1,18 +1,41 @@
-const readline = require('readline');
+/**
+ * Жители Алгосского архипелага придумали новый способ сравнения строк.
+ * Две строки считаются равными, если символы одной из них можно заменить на символы другой так,
+ * что первая строка станет точной копией второй строки. При этом необходимо соблюдение двух условий:
+
+ Порядок вхождения символов должен быть сохранён.
+ Одинаковым символам первой строки должны соответствовать одинаковые символы второй строки.
+ Разным символам —– разные.
+ Например, если строка s = «abacaba», то ей будет равна строка t = «xhxixhx»,
+ так как все вхождения «a» заменены на «x», «b» –— на «h», а «c» –— на «i».
+ Если же первая строка s=«abc», а вторая t=«aaa», то строки уже не будут равны,
+ так как разные буквы первой строки соответствуют одинаковым буквам второй.
+
+ Формат ввода
+ В первой строке записана строка s, во второй –— строка t.
+ Длины обеих строк не превосходят 106.
+ Обе строки содержат хотя бы по одному символу и состоят только из маленьких латинских букв.
+
+ Строки могут быть разной длины.
+
+ Формат вывода
+ Выведите «YES», если строки равны (согласно вышеописанным правилам), и «NO» в ином случае.
+ * */
+const readline = require("readline");
 
 const rl = readline.createInterface({
   input: process.stdin,
-  output: process.stdout
+  output: process.stdout,
 });
 
 const input = [];
 const dict = {};
 const busyVals = [];
-rl.on('line', (line) => {
+rl.on("line", (line) => {
   input.push(line);
   if (input.length === 2) {
-    const str1 = input[0].split('');
-    const str2 = input[1].split('');
+    const str1 = input[0].split("");
+    const str2 = input[1].split("");
     console.log(compare(str1, str2));
     rl.close();
   }
@@ -20,17 +43,17 @@ rl.on('line', (line) => {
 
 function compare(str1, str2) {
   if (str1.length !== str2.length) {
-    return 'NO';
+    return "NO";
   }
   for (let i = 0; i < str1.length; i++) {
     if (
       (dict.hasOwnProperty(str1[i]) && dict[str1[i]] !== str2[i]) ||
       (!dict.hasOwnProperty(str1[i]) && busyVals.includes(str2[i]))
     ) {
-      return 'NO';
+      return "NO";
     }
     dict[str1[i]] = str2[i];
     busyVals.push(str2[i]);
   }
-  return 'YES';
+  return "YES";
 }

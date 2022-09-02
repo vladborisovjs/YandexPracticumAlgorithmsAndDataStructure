@@ -1,16 +1,30 @@
-const readline = require('readline');
+/**
+ * В компании, где работает Тимофей, заботятся о досуге сотрудников и устраивают различные кружки по интересам.
+ * Когда кто-то записывается на занятие, в лог вносится название кружка.
+
+ По записям в логе составьте список всех кружков, в которые ходит хотя бы один человек.
+
+ Формат ввода
+ В первой строке даётся натуральное число n, не превосходящее 10 000 –— количество записей в логе.
+
+ В следующих n строках —– названия кружков.
+
+ Формат вывода
+ Выведите уникальные названия кружков по одному на строке, в порядке появления во входных данных.
+ * */
+const readline = require("readline");
 
 const rl = readline.createInterface({
   input: process.stdin,
-  output: process.stdout
+  output: process.stdout,
 });
 
 const input = [];
-rl.on('line', (line) => {
+rl.on("line", (line) => {
   input.push(line);
   if (input.length === parseInt(input[0], 10) + 1) {
     const set = Array.from(new Set(input.slice(1)));
-    console.log(set.join('\n'));
+    console.log(set.join("\n"));
     rl.close();
   }
 });

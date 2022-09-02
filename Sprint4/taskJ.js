@@ -1,20 +1,39 @@
-const readline = require('readline');
+/**
+ * У Гоши есть любимое число S.
+ * Помогите ему найти все уникальные четвёрки чисел в массиве, которые в сумме дают заданное число S.
+
+ Формат ввода
+ В первой строке дано общее количество элементов массива n (0 ≤ n ≤ 1000).
+
+ Во второй строке дано целое число S.
+
+ В третьей строке задан сам массив.
+ Каждое число является целым и не превосходит по модулю 109.
+
+ Формат вывода
+ В первой строке выведите количество найденных четвёрок чисел.
+
+ В последующих строках выведите найденные четвёрки.
+ Числа внутри одной четверки должны быть упорядочены по возрастанию.
+ Между собой четвёрки упорядочены лексикографически.
+ * */
+const readline = require("readline");
 
 const rl = readline.createInterface({
   input: process.stdin,
-  output: process.stdout
+  output: process.stdout,
 });
 
 const input = [];
-rl.on('line', (line) => {
+rl.on("line", (line) => {
   input.push(line);
   if (input.length === 3) {
     const target = parseInt(input[1], 0);
-    const arr = input[2].split(' ').map((x) => parseInt(x, 10));
+    const arr = input[2].split(" ").map((x) => parseInt(x, 10));
     const result = sum4(arr, target);
     console.log(result.length);
     for (let i = 0; i < result.length; i++) {
-      console.log(result[i].join(' '));
+      console.log(result[i].join(" "));
     }
     rl.close();
   }
