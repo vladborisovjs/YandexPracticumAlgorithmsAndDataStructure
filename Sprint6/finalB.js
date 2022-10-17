@@ -1,4 +1,4 @@
-// 71999145
+// 72269806
 
 /**
  * ПРИНЦИП РАБОТЫ
@@ -31,11 +31,15 @@ const rl = readline.createInterface({
 const input = [];
 let line = 1;
 
+const COLOR_WHITE = 'white';
+const COLOR_GRAY = 'gray';
+const COLOR_BLACK = 'black';
+
 rl.on('line', line => {
     input.push(line);
     if (input.length === Number(input[0])) {
         const list = setList(Number(input[0]));
-        console.log(hasCycles(list));
+        console.log(hasCycles(list) ? 'NO' : 'YES');
         rl.close();
     }
 })
@@ -125,10 +129,10 @@ class Stack {
  * @param {[int[]]} list
  * */
 function hasCycles(list) {
-    const color = Array.from(new Array(list.length), () => 'white');
+    const color = Array.from(new Array(list.length), () => COLOR_WHITE);
 
     for (let i = 0; i < list.length; i++) {
-        if (color[i] !== 'white') {
+        if (color[i] !== COLOR_WHITE) {
             continue;
         }
 
@@ -138,26 +142,26 @@ function hasCycles(list) {
         while (stack.getSize()) {
             const v = stack.pop();
 
-            if (color[v] === 'white') {
-                color[v] = 'gray';
+            if (color[v] === COLOR_WHITE) {
+                color[v] = COLOR_GRAY;
                 stack.push(v)
 
                 for (let u of list[v]) {
-                    if (color[u] === 'gray') {
-                        return 'NO';
+                    if (color[u] === COLOR_GRAY) {
+                        return true;
                     }
 
-                    if (color[u] === 'white') {
+                    if (color[u] === COLOR_WHITE) {
                         stack.push(u);
                     }
                 }
-            } else if (color[v] === 'gray') {
-                color[v] = 'black';
+            } else if (color[v] === COLOR_GRAY) {
+                color[v] = COLOR_BLACK;
             }
         }
     }
 
-    return 'YES';
+    return false;
 }
 
 /**

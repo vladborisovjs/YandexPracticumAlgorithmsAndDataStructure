@@ -1,4 +1,4 @@
-// 72136970
+// 72269081
 
 /**
  * ПРИНЦИП РАБОТЫ
@@ -111,9 +111,7 @@ class Heap {
         const pIdx = Math.floor(idx / 2);
 
         if (this.heap[pIdx].weight < this.heap[idx].weight) {
-            const tmp = this.heap[idx];
-            this.heap[idx] = this.heap[pIdx];
-            this.heap[pIdx] = tmp;
+            swap(this.heap, idx, pIdx);
             return this.siftUp(pIdx);
         }
 
@@ -140,10 +138,7 @@ class Heap {
         }
 
         if (this.heap[idx].weight < this.heap[idxLargest].weight) {
-            const tmp = this.heap[idx];
-            this.heap[idx] = this.heap[idxLargest];
-            this.heap[idxLargest] = tmp;
-
+            swap(this.heap, idx, idxLargest);
             return this.siftDown(idxLargest);
         }
         return idx;
@@ -225,4 +220,14 @@ function readEdges() {
     let edge = input[line].split(' ').map((el) => Number(el));
     line++;
     return edge;
+}
+
+/**
+ * Меняем местами элементы
+ *  @param {object} arr
+ *  @param {number} i
+ *  @param {number} j
+ * */
+function swap(arr, i, j) {
+    [arr[i], arr[j]] = [arr[j], arr[i]];
 }
