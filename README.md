@@ -125,3 +125,8 @@
 <li><a href="https://github.com/vladborisovjs/YandexPracticumAlgorithmsAndDataStructure/blob/master/Sprint6/taskJ.js">J. Топологическая сортировка</a></li>
 <li><a href="https://github.com/vladborisovjs/YandexPracticumAlgorithmsAndDataStructure/blob/master/Sprint6/taskL.js">L. Полный граф</a></li>
 </ul>
+
+<ul>
+<li><a href="https://github.com/vladborisovjs/YandexPracticumAlgorithmsAndDataStructure/blob/master/Sprint6/finalA.js">A. Дорогая сеть</a></li>
+<li><a href="https://github.com/vladborisovjs/YandexPracticumAlgorithmsAndDataStructure/blob/master/Sprint6/finalB.js">B. Железные дороги</a></li>
+</ul>
