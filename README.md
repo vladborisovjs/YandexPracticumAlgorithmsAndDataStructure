@@ -138,7 +138,7 @@
 <li><a href="https://github.com/vladborisovjs/YandexPracticumAlgorithmsAndDataStructure/blob/master/Sprint7/taskB.js">B. Расписание</a></li>
 <li><a href="https://github.com/vladborisovjs/YandexPracticumAlgorithmsAndDataStructure/blob/master/Sprint7/taskC.js">C. Золотая лихорадка</a></li>
 <li><a href="https://github.com/vladborisovjs/YandexPracticumAlgorithmsAndDataStructure/blob/master/Sprint7/taskD.js">D. Числа Фибоначчи для взрослых</a></li>
-<li><a href="https://github.com/vladborisovjs/YandexPracticumAlgorithmsAndDataStructure/blob/master/Sprint7/taskD.js">E. Алла на Алгосах</a></li>
+<li><a href="https://github.com/vladborisovjs/YandexPracticumAlgorithmsAndDataStructure/blob/master/Sprint7/taskE.js">E. Алла на Алгосах</a></li>
 <li><a href="https://github.com/vladborisovjs/YandexPracticumAlgorithmsAndDataStructure/blob/master/Sprint7/taskF.js">F. Прыжки по лестнице</a></li>
 <li><a href="https://github.com/vladborisovjs/YandexPracticumAlgorithmsAndDataStructure/blob/master/Sprint7/taskG.js">G. Банкомат</a></li>
 <li><a href="https://github.com/vladborisovjs/YandexPracticumAlgorithmsAndDataStructure/blob/master/Sprint7/taskH.js">H. Поле с цветочками</a></li>
