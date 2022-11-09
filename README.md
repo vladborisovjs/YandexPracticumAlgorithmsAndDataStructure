@@ -130,3 +130,23 @@
 <li><a href="https://github.com/vladborisovjs/YandexPracticumAlgorithmsAndDataStructure/blob/master/Sprint6/finalA.js">A. Дорогая сеть</a></li>
 <li><a href="https://github.com/vladborisovjs/YandexPracticumAlgorithmsAndDataStructure/blob/master/Sprint6/finalB.js">B. Железные дороги</a></li>
 </ul>
+
+Спринт 7
+
+<ul>
+<li><a href="https://github.com/vladborisovjs/YandexPracticumAlgorithmsAndDataStructure/blob/master/Sprint7/taskA.js">A. Биржа</a></li>
+<li><a href="https://github.com/vladborisovjs/YandexPracticumAlgorithmsAndDataStructure/blob/master/Sprint7/taskB.js">B. Расписание</a></li>
+<li><a href="https://github.com/vladborisovjs/YandexPracticumAlgorithmsAndDataStructure/blob/master/Sprint7/taskC.js">C. Золотая лихорадка</a></li>
+<li><a href="https://github.com/vladborisovjs/YandexPracticumAlgorithmsAndDataStructure/blob/master/Sprint7/taskD.js">D. Числа Фибоначчи для взрослых</a></li>
+<li><a href="https://github.com/vladborisovjs/YandexPracticumAlgorithmsAndDataStructure/blob/master/Sprint7/taskE.js">E. Алла на Алгосах</a></li>
+<li><a href="https://github.com/vladborisovjs/YandexPracticumAlgorithmsAndDataStructure/blob/master/Sprint7/taskF.js">F. Прыжки по лестнице</a></li>
+<li><a href="https://github.com/vladborisovjs/YandexPracticumAlgorithmsAndDataStructure/blob/master/Sprint7/taskG.js">G. Банкомат</a></li>
+<li><a href="https://github.com/vladborisovjs/YandexPracticumAlgorithmsAndDataStructure/blob/master/Sprint7/taskH.js">H. Поле с цветочками</a></li>
+<li><a href="https://github.com/vladborisovjs/YandexPracticumAlgorithmsAndDataStructure/blob/master/Sprint7/taskI.js">I. Сложное поле с цветочками</a></li>
+<li><a href="https://github.com/vladborisovjs/YandexPracticumAlgorithmsAndDataStructure/blob/master/Sprint7/taskL.js">L. Золото лепреконов</a></li>
+</ul>
+
+<ul>
+<li><a href="https://github.com/vladborisovjs/YandexPracticumAlgorithmsAndDataStructure/blob/master/Sprint7/finalA.js">A. Расстояние по Левенштейну</a></li>
+<li><a href="https://github.com/vladborisovjs/YandexPracticumAlgorithmsAndDataStructure/blob/master/Sprint7/finalB.js">B. Одинаковые суммы</a></li>
+</ul>
